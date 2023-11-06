@@ -9,7 +9,7 @@ import com.example.myapplication.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        //
         val binding = ActivityMainBinding.inflate(layoutInflater)
         val navController= binding.frgNav.getFragment<NavHostFragment>().navController
         setupActionBarWithNavController(navController)
